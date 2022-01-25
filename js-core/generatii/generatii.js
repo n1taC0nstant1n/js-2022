@@ -1,7 +1,7 @@
 var date = new Date();
 var year = date.getFullYear()
 document.write("Salut suntem in anul " + year + '!')
-var age = 49;
+var age = 13;
 var generationAlpha = age < 6;
 var generarationZ = age < 20;
 var generarationY = age < 35;
@@ -22,6 +22,7 @@ if(generationAlpha){
 }else if(generarationB){
     document.write("<h2>Salut! Faci parte din generatia Builders!</h2>")
 }
+
 
 
 
