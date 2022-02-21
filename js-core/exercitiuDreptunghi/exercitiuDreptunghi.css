@@ -3,10 +3,26 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
 }
 #dreptunghi{
     width: 15em;
     height: 10em;
     background-color:  blue;
     
+}
+
+#cerc{
+    background-color: crimson;
+    border-radius: 50%;
+    height: 5em;
+    width: 5em;
+    position:absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+
+
 }

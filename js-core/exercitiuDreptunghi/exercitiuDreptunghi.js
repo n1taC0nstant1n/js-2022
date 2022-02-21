@@ -7,3 +7,16 @@ async function minimize(){
         dr.style.height = i + 'em'
     }
 }
+
+var cerc = document.querySelector('#cerc')
+cerc.addEventListener('click', mutaCerc)
+
+async function mutaCerc(){
+    for(let i = 0; i<= 500; i++){
+        await new Promise(r => setTimeout(r, 40))
+        cerc.style.top = cerc.style.left = i + 'px' 
+    }
+
+    cerc.removeEventListener('click', mutaCerc)
+
+}
